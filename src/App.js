@@ -1,10 +1,21 @@
-import Product from "./components/product/Product";
-import React from "react";
+import Content from "./components/content/content";
+import Header from "./components/header/Header";
+import './App.scss'
+import {useEffect} from "react";
+import {getProducts} from "./store/reducers/productReducer";
+import {useDispatch} from "react-redux";
 
 const App = () => {
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(getProducts())
+    }, [])
+
     return (
-        <div>
-            <Product/>
+        <div class='container'>
+            <Header/>
+            <Content/>
         </div>
     );
 }

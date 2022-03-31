@@ -1,0 +1,61 @@
+.logoCompany {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 70px;
+}
+
+.wrapperBurgerItems {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    & > :first-child {
+        width: 20px;
+        height: 20px;
+        border: unset;
+        background-color: unset;
+    }
+
+    div {
+        background: #E4002B;
+        border-radius: 18px;
+        padding: 5px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+
+        img {
+            width: 24px;
+            height: 24px;
+            margin-left: 4px;
+        }
+    }
+}
+
+.deliveryWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h4 {
+        font-size: 64px;
+    }
+
+    div {
+        button {
+            background: #F7F6F5;
+            color: #9D9D9D;
+            padding: 12px 17px;
+            border: unset;
+        }
+    }
+}
+
+.active {
+    color: white !important;
+    background: #E4002B !important;
+    border-radius: 4px;
+}
+

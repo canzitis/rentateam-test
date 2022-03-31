@@ -1,0 +1,17 @@
+.productsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+        background: unset;
+        border: unset;
+        padding-bottom: 13px;
+        color: #9D9D9D;
+    }
+}
+
+.active {
+    color: #E4002B !important;
+    border-bottom: solid 2px #E4022B !important;
+}

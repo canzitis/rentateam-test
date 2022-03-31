@@ -1,0 +1,28 @@
+.deliveryAddressForm {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    &>:first-child{
+        margin-right: 43px;
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+
+        h3 {
+            font-size: 32px;
+            margin-right: 13px;
+        }
+
+        input {
+            background: #F7F6F5;
+            border-radius: 4px;
+            max-width: 210px;
+            padding: 10px 16px;
+            border: unset;
+            outline: unset;
+        }
+    }
+}
