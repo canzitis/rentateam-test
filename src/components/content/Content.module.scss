@@ -1,0 +1,24 @@
+.container {
+    padding: 40px 0 40px 0;
+    background-color: #F7F6F5;
+
+    h4 {
+        font-size: 32px;
+        font-weight: normal;
+    }
+}
+
+.wrapperItems {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+.griWrapperProduct {
+
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-column-gap: 72px;
+    grid-row-gap: 1em;
+}

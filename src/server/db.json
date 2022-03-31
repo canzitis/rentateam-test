@@ -9,77 +9,77 @@
                     "name": "Бургер обычный",
                     "price": 144,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/burger.png"
                 },
                 {
                     "id": 1,
                     "name": "Бургер двойной",
                     "price": 270,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/burger.png"
                 },
                 {
                     "id": 2,
                     "name": "Бургер острый",
                     "price": 150,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/burger.png"
                 },
                 {
                     "id": 3,
                     "name": "Бургер с хреном",
                     "price": 164,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/burger.png"
                 },
                 {
                     "id": 4,
                     "name": "Бургер с повидлом",
                     "price": 173,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/burger.png"
                 },
                 {
                     "id": 5,
                     "name": "Бургер индийский",
                     "price": 200,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/burger.png"
                 },
                 {
                     "id": 6,
                     "name": "Бургер с чебуреком",
                     "price": 210,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/burger.png"
                 },
                 {
                     "id": 7,
                     "name": "Бургер от шефа",
                     "price": 250,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/burger.png"
                 },
                 {
                     "id": 8,
                     "name": "Бургер от души",
                     "price": 196,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/burger.png"
                 },
                 {
                     "id": 9,
                     "name": "Бургер золотой",
                     "price": 230,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/burger.png"
                 },
                 {
                     "id": 10,
                     "name": "Бургер для царей",
                     "price": 245,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/burger.png"
                 }
             ]
         },
@@ -92,77 +92,77 @@
                     "name": "Твистер обычный",
                     "price": 125,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/tvister.png"
                 },
                 {
                     "id": 1,
                     "name": "Твистер двойной",
                     "price": 264,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/tvister.png"
                 },
                 {
                     "id": 2,
                     "name": "Твистер острый",
                     "price": 133,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/tvister.png"
                 },
                 {
                     "id": 3,
                     "name": "Твистер с хреном",
                     "price": 122,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/tvister.png"
                 },
                 {
                     "id": 4,
                     "name": "Твистер с повидлом",
                     "price": 139,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/tvister.png"
                 },
                 {
                     "id": 5,
                     "name": "Твистер индийский",
                     "price": 142,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/tvister.png"
                 },
                 {
                     "id": 6,
                     "name": "Твистер маминой подруги",
                     "price": 205,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/tvister.png"
                 },
                 {
                     "id": 7,
                     "name": "Твистер от шефа",
                     "price": 232,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/tvister.png"
                 },
                 {
                     "id": 8,
                     "name": "Твистер от души",
                     "price": 193,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/tvister.png"
                 },
                 {
                     "id": 9,
                     "name": "Твистер золотой",
                     "price": 211,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/tvister.png"
                 },
                 {
                     "id": 10,
                     "name": "Твистер для царей",
                     "price": 224,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/tvister.png"
                 }
             ]
         },
@@ -175,35 +175,35 @@
                     "name": "Курица обычная",
                     "price": 142,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/chicken.png"
                 },
                 {
                     "id": 1,
                     "name": "Курица двойная",
                     "price": 270,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/chicken.png"
                 },
                 {
                     "id": 2,
                     "name": "Курица острая",
                     "price": 180,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/chicken.png"
                 },
                 {
                     "id": 3,
                     "name": "Курица 'Горячая штучка'",
                     "price": 278,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/chicken.png"
                 },
                 {
                     "id": 4,
                     "name": "Курица беглая",
                     "price": 298,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/chicken.png"
                 }
             ]
         },
@@ -397,7 +397,7 @@
                 },
                 {
                     "id": 1,
-                    "name": "Слойка <br/>со сгущенкой",
+                    "name": "Слойка со сгущенкой",
                     "price": 85,
                     "delivery": true,
                     "img": ""
@@ -411,7 +411,7 @@
                 },
                 {
                     "id": 3,
-                    "name": "Горячий пирог<br/>с малиной",
+                    "name": "Горячий пирог с малиной",
                     "price": 94,
                     "delivery": false,
                     "img": ""
@@ -438,7 +438,7 @@
                 },
                 {
                     "id": 1,
-                    "name": "Пару крыльев<br/>на закуску",
+                    "name": "Пару крыльев на закуску",
                     "price": 50,
                     "delivery": true,
                     "img": ""
@@ -493,7 +493,7 @@
                 },
                 {
                     "id": 3,
-                    "name": "Сет 'Бургер,Спрайт,<br/>Шоколадная вафля'",
+                    "name": "Сет 'Бургер,Спрайт,Шоколадная вафля'",
                     "price": 350,
                     "delivery": true,
                     "img": ""

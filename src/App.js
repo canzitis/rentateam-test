@@ -1,4 +1,4 @@
-import Content from "./components/content/content";
+import Content from "./components/content/Content";
 import Header from "./components/header/Header";
 import './App.scss'
 import {useEffect} from "react";
@@ -12,11 +12,12 @@ const App = () => {
         dispatch(getProducts())
     }, [])
 
-    return (
-        <div class='container'>
-            <Header/>
+    return (<>
+            <div className='container'>
+                <Header/>
+            </div>
             <Content/>
-        </div>
+        </>
     );
 }
 

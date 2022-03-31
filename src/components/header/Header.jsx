@@ -4,12 +4,12 @@ import basketImg from '../../img/header/basket.png'
 import imgLogo from '../../img/header/logo.png'
 import {useState} from "react";
 import DeliveryForm from "../deliveryForm/DeliveryForm";
-import Products from "../products/Products";
+import Categories from "../categories/Categories";
 import {useSelector} from "react-redux";
 
 const Header = () => {
     const orderPrice = useSelector((state) => state.orderPrice);
-    const [deliveryTab, setDeliveryTab] = useState(true);
+    const [deliveryTab, setDeliveryTab] = useState(false);
 
     return <>
         <img src={imgLogo} alt="Logo company" className={s.logoCompany}/>
@@ -28,9 +28,7 @@ const Header = () => {
             </div>
         </div>
         {deliveryTab && <DeliveryForm/>}
-        <div>
-            <Products/>
-        </div>
+        <Categories/>
     </>
 }
 export default Header;
