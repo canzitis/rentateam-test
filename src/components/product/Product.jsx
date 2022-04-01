@@ -7,7 +7,7 @@ const Product = ({items}) => {
         {items.products.map((products) => {
             return <div key={products.id} className={s.container}>
                 <div className={s.wrapperProductItems}>
-                    {products.delivery &&  <div className={s.ProductItem}>
+                    <div className={s.ProductItem}>
                         <div>
                             <img src={products.img} alt="img product"/>
                             {quantityGoods <= 0
@@ -21,8 +21,7 @@ const Product = ({items}) => {
                         </div>
                         <h5>{products.name}</h5>
                         <span>{products.price} ₽</span>
-                    </div>}
-
+                    </div>
                 </div>
             </div>
         })}

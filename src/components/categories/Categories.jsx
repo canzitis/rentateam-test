@@ -7,8 +7,9 @@ const Categories = () => {
     const [activeTab, setActiveTab] = useState(0);
     return <div className={s.productsWrapper}>
         {categories.map((items) => {
-            return <button onClick={() => setActiveTab(items.id)} className={activeTab === items.id ? s.active : ''}
-                           key={items.id}>{items.name}</button>
+            return <button onClick={() => setActiveTab(items.id)} className={activeTab === items.id
+                ? s.active
+                : ''} key={items.id}>{items.name}</button>
         })}
     </div>
 }

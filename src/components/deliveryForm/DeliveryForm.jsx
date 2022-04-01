@@ -1,7 +1,7 @@
 import {useForm} from "react-hook-form";
 import s from './DeliveryForm.module.scss'
 
-const DeliveryForm = ({setDelivery}) => {
+const DeliveryForm = () => {
     const {
         register,
         handleSubmit,

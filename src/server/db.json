@@ -216,28 +216,28 @@
                     "name": "Баскет обычный",
                     "price": 235,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/basket.png"
                 },
                 {
                     "id": 1,
                     "name": "Баскет двойной",
                     "price": 500,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/basket.png"
                 },
                 {
                     "id": 2,
                     "name": "Баскет острая",
                     "price": 250,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/basket.png"
                 },
                 {
                     "id": 3,
                     "name": "Баскет 'Lebron'",
                     "price": 520,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/basket.png"
                 }
             ]
         },
@@ -250,21 +250,21 @@
                     "name": "Снеки обычные",
                     "price": 145,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/snacks.png"
                 },
                 {
                     "id": 1,
                     "name": "Снеки двойные",
                     "price": 230,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/snacks.png"
                 },
                 {
                     "id": 2,
                     "name": "Снеки острые",
                     "price": 186,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/snacks.png"
                 }
             ]
         },
@@ -277,28 +277,28 @@
                     "name": "Соус чили",
                     "price": 65,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/sauce.png"
                 },
                 {
                     "id": 1,
                     "name": "Соус сырный",
                     "price": 65,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/sauce.png"
                 },
                 {
                     "id": 2,
                     "name": "Соус 'Тысяча стульев'",
                     "price": 186,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/sauce.png"
                 },
                 {
                     "id": 3,
                     "name": "Соус 'От шефа'",
                     "price": 999,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/sauce.png"
                 }
             ]
         },
@@ -311,35 +311,35 @@
                     "name": "Кола",
                     "price": 150,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/drinking.png"
                 },
                 {
                     "id": 1,
                     "name": "Тархун",
                     "price": 150,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/drinking.png"
                 },
                 {
                     "id": 2,
                     "name": "Дюшес",
                     "price": 150,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/drinking.png"
                 },
                 {
                     "id": 3,
                     "name": "Спрайт",
                     "price": 150,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/drinking.png"
                 },
                 {
                     "id": 4,
                     "name": "Квас",
                     "price": 150,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/drinking.png"
                 }
             ]
         },
@@ -352,35 +352,35 @@
                     "name": "Чай черный",
                     "price": 59,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/coffeeAndTea.png"
                 },
                 {
                     "id": 1,
                     "name": "Чай белый",
                     "price": 56,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/coffeeAndTea.png"
                 },
                 {
                     "id": 2,
                     "name": "Чай фруктовый",
                     "price": 56,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/coffeeAndTea.png"
                 },
                 {
                     "id": 3,
                     "name": "Кофе черный",
                     "price": 76,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/coffeeAndTea.png"
                 },
                 {
                     "id": 4,
                     "name": "Кофе с молоком",
                     "price": 86,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/coffeeAndTea.png"
                 }
             ]
         },
@@ -393,35 +393,35 @@
                     "name": "Пончик",
                     "price": 74,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/desserts.png"
                 },
                 {
                     "id": 1,
                     "name": "Слойка со сгущенкой",
                     "price": 85,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/desserts.png"
                 },
                 {
                     "id": 2,
                     "name": "Чизкейк",
                     "price": 78,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/desserts.png"
                 },
                 {
                     "id": 3,
                     "name": "Горячий пирог с малиной",
                     "price": 94,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/desserts.png"
                 },
                 {
                     "id": 4,
                     "name": "Блинчик с творогом",
                     "price": 67,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/desserts.png"
                 }
             ]
         },
@@ -434,35 +434,35 @@
                     "name": "Чизбургер для малышей",
                     "price": 50,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/fast-food.png"
                 },
                 {
                     "id": 1,
                     "name": "Пару крыльев на закуску",
                     "price": 50,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/fast-food.png"
                 },
                 {
                     "id": 2,
                     "name": "3 горячих пельменя",
                     "price": 50,
                     "delivery": false,
-                    "img": ""
+                    "img": "../img/fast-food.png"
                 },
                 {
                     "id": 3,
                     "name": "Карамель на палочке",
                     "price": 50,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/fast-food.png"
                 },
                 {
                     "id": 4,
                     "name": "Шоколадная вафля",
                     "price": 50,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/fast-food.png"
                 }
             ]
         },
@@ -475,37 +475,113 @@
                     "name": "Бургер с курицей",
                     "price": 287,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/fast-food-PC.png"
                 },
                 {
                     "id": 1,
                     "name": "Бургер острый с курицей острой",
                     "price": 319,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/fast-food-PC.png"
                 },
                 {
                     "id": 2,
                     "name": "Сет 'Твистер,Кола и соус'",
                     "price": 343,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/fast-food-PC.png"
                 },
                 {
                     "id": 3,
-                    "name": "Сет 'Бургер,Спрайт,Шоколадная вафля'",
+                    "name": "Сет 'Бургер,Спрайт'",
                     "price": 350,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/fast-food-PC.png"
                 },
                 {
                     "id": 4,
                     "name": "Шоколадная вафля",
                     "price": 50,
                     "delivery": true,
-                    "img": ""
+                    "img": "../img/fast-food-PC.png"
                 }
             ]
         }
-    ]
+    ],
+    "footer": {
+        "img": "../img/footer/img.png",
+        "data": [
+            {
+                "section": "Раздел 1",
+                "subsection": [
+                    "Подраздел",
+                    "Подраздел",
+                    "Подраздел",
+                    "Подраздел",
+                    "Подраздел"
+                ]
+            },
+            {
+                "section": "Раздел 2",
+                "subsection": [
+                    "Подраздел",
+                    "Подраздел",
+                    "Подраздел",
+                    "Подраздел",
+                    "Подраздел"
+                ]
+            },
+            {
+                "img": "../img/footer/photo.png"
+            },
+            {
+                "section": "Раздел 3",
+                "subsection": [
+                    "Подраздел",
+                    "Подраздел",
+                    "Подраздел",
+                    "Подраздел",
+                    "Подраздел"
+                ]
+            },
+            {
+                "section": "Раздел 4",
+                "subsection": [
+                    "Подраздел",
+                    "Подраздел",
+                    "Подраздел",
+                    "Подраздел",
+                    "Подраздел"
+                ]
+            }
+        ],
+        "socialMedia": [
+            {
+                "src": "../img/footer/vk.png",
+                "href": ""
+            },
+            {
+                "src": "../img/footer/facebook.png",
+                "href": ""
+            },
+            {
+                "src": "../img/footer/twiter.png",
+                "href": ""
+            },
+            {
+                "src": "../img/footer/odnoklass.png",
+                "href": ""
+            }
+        ],
+        "playMarket": [
+            {
+                "src": "../img/footer/googlePlay.png",
+                "href": ""
+            },
+            {
+                "src": "../img/footer/appStore.png",
+                "href": ""
+            }
+        ]
+    }
 }

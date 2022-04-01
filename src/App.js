@@ -4,6 +4,7 @@ import './App.scss'
 import {useEffect} from "react";
 import {getProducts} from "./store/reducers/productReducer";
 import {useDispatch} from "react-redux";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
     const dispatch = useDispatch();
@@ -17,6 +18,9 @@ const App = () => {
                 <Header/>
             </div>
             <Content/>
+            <div className='container'>
+                <Footer/>
+            </div>
         </>
     );
 }

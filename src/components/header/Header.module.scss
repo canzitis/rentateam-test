@@ -49,6 +49,12 @@
             color: #9D9D9D;
             padding: 12px 17px;
             border: unset;
+            transition: .2s;
+
+            &:hover {
+                cursor: pointer;
+                background: rgba(228, 0, 43, 0.06)
+            }
         }
     }
 }
@@ -58,4 +64,15 @@
     background: #E4002B !important;
     border-radius: 4px;
 }
+
+@media (max-width: 1100px) {
+    .deliveryWrapper {
+        flex-direction: column;
+
+        h4{
+            margin-bottom: 10px;
+        }
+    }
+}
+
 

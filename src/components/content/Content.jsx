@@ -8,9 +8,11 @@ const Content = () => {
     return <div className={s.container}>
         {products.map((items) => {
             return <div key={items.id} className={s.wrapperItems}>
-                <h4>{items.name}</h4>
-                <div className={s.griWrapperProduct}>
-                    <Product items={items}/>
+                <div>
+                    <h4>{items.name}</h4>
+                    <div className={s.griWrapperProduct}>
+                        <Product items={items}/>
+                    </div>
                 </div>
             </div>
         })}
