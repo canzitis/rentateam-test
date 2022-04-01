@@ -4,7 +4,8 @@ const SET_PRODUCTS = "SET_PRODUCTS"
 const SET_INITIALIZATION = "SET_INITIALIZATION"
 
 let initialState = {
-    data: null,
+    categories: [],
+    footer: null,
     orderPrice: 0,
     initialization: false,
 }
@@ -12,10 +13,10 @@ let initialState = {
 const productReducer = (state = initialState, action) => {
     switch (action.type) {
         case SET_PRODUCTS:
-            debugger
             return {
                 ...state,
-                data: {...action.products},
+                categories: [...action.data.categories],
+                footer: {...action.data.footer},
                 initialization: true
             }
 
@@ -25,11 +26,10 @@ const productReducer = (state = initialState, action) => {
 }
 
 
-const setProducts = (products) => {
-    debugger
+const setProducts = (data) => {
     return {
         type: SET_PRODUCTS,
-        products
+        data
     }
 }
 
@@ -46,7 +46,6 @@ export const getProducts = () => {
         dispatch(setInitialization(false))
         const data = await api.getProducts()
         if (data.status === 200) {
-            debugger
             dispatch(setProducts(data.data))
         }
     }

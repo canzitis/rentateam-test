@@ -3,7 +3,7 @@ import s from './Categories.module.scss'
 import {useState} from "react";
 
 const Categories = () => {
-    const categories = useSelector((state) => state.products);
+    const categories = useSelector((state) => state.categories);
     const [activeTab, setActiveTab] = useState(0);
     return <div className={s.productsWrapper}>
         {categories.map((items) => {

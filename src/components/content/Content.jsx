@@ -4,10 +4,9 @@ import Product from "../product/Product";
 import s from './Content.module.scss'
 
 const Content = () => {
-    const products = useSelector((state) => state.data.products);
-    console.log(products)
+    const categories = useSelector((state) => state.categories);
     return <div className={s.container}>
-        {products.map((items) => {
+        {categories.map((items) => {
             return <div key={items.id} className={s.wrapperItems}>
                 <div>
                     <h4>{items.name}</h4>

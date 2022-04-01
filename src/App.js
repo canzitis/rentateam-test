@@ -8,7 +8,6 @@ import Footer from "./components/footer/Footer";
 
 const App = () => {
     const initialization = useSelector((state) => state.initialization);
-    const data = useSelector((state) => state.data);
     const dispatch = useDispatch();
 
     useEffect(() => {

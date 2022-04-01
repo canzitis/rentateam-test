@@ -513,46 +513,91 @@
             "img": "../img/footer/img.png",
             "data": [
                 {
+                    "id": 0,
                     "section": "Раздел 1",
                     "subsection": [
-                        "Подраздел",
-                        "Подраздел",
-                        "Подраздел",
-                        "Подраздел",
-                        "Подраздел"
+                        {
+                            "subsectionName": "Подраздел"
+                        },
+                        {
+                            "subsectionName": "Подраздел"
+                        },
+                        {
+                            "subsectionName": "Подраздел"
+                        },
+                        {
+                            "subsectionName": "Подраздел"
+                        },
+                        {
+                            "subsectionName": "Подраздел"
+                        }
                     ]
                 },
                 {
+                    "id": 1,
                     "section": "Раздел 2",
                     "subsection": [
-                        "Подраздел",
-                        "Подраздел",
-                        "Подраздел",
-                        "Подраздел",
-                        "Подраздел"
+                        {
+                            "subsectionName": "Подраздел"
+                        },
+                        {
+                            "subsectionName": "Подраздел"
+                        },
+                        {
+                            "subsectionName": "Подраздел"
+                        },
+                        {
+                            "subsectionName": "Подраздел"
+                        },
+                        {
+                            "subsectionName": "Подраздел"
+                        }
                     ]
                 },
                 {
+                    "id": 2,
                     "img": "../img/footer/photo.png"
                 },
                 {
+                    "id": 3,
                     "section": "Раздел 3",
                     "subsection": [
-                        "Подраздел",
-                        "Подраздел",
-                        "Подраздел",
-                        "Подраздел",
-                        "Подраздел"
+                        {
+                            "subsectionName": "Подраздел"
+                        },
+                        {
+                            "subsectionName": "Подраздел"
+                        },
+                        {
+                            "subsectionName": "Подраздел"
+                        },
+                        {
+                            "subsectionName": "Подраздел"
+                        },
+                        {
+                            "subsectionName": "Подраздел"
+                        }
                     ]
                 },
                 {
+                    "id": 4,
                     "section": "Раздел 4",
                     "subsection": [
-                        "Подраздел",
-                        "Подраздел",
-                        "Подраздел",
-                        "Подраздел",
-                        "Подраздел"
+                        {
+                            "subsectionName": "Подраздел"
+                        },
+                        {
+                            "subsectionName": "Подраздел"
+                        },
+                        {
+                            "subsectionName": "Подраздел"
+                        },
+                        {
+                            "subsectionName": "Подраздел"
+                        },
+                        {
+                            "subsectionName": "Подраздел"
+                        }
                     ]
                 }
             ],
