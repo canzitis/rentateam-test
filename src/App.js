@@ -3,16 +3,21 @@ import Header from "./components/header/Header";
 import './App.scss'
 import {useEffect} from "react";
 import {getProducts} from "./store/reducers/productReducer";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
+    const initialization = useSelector((state) => state.initialization);
+    const data = useSelector((state) => state.data);
     const dispatch = useDispatch();
 
     useEffect(() => {
         dispatch(getProducts())
     }, [])
 
+    if (!initialization) {
+        return <h4>Загрузка...</h4>
+    }
     return (<>
             <div className='container'>
                 <Header/>

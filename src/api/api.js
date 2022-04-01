@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const initialApi = {
-    baseUrl: 'http://localhost:3001/categories'
+    baseUrl: 'http://localhost:3001/data'
 }
 
 export const api = {

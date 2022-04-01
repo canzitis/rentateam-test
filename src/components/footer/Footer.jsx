@@ -3,10 +3,11 @@ import {useSelector} from "react-redux";
 import s from './Footer.module.scss'
 
 const Footer = () => {
-    const footer = useSelector((state) => state.products);
+   const footer = useSelector((state) => state.products.footer);
     return (
         <div className={s.container}>
-            <img src={footer.footer.img} alt=""/>
+
+
 
 
         </div>
